@@ -1,0 +1,16 @@
+This is a change log for the grid3_dct package.
+
+Rev: 2011 apr
+
+	First release.
+
+Rev: 2011 aug
+
+	-Minor bug fix to grid_utils.c for gridding single data
+	points.
+	-Added a simple MATLAB script and data to aid users in
+	testing their distribution and implementing rolloff.
+	-Added MD5 checksums for each file contained in the
+	distribution.
+	
+
