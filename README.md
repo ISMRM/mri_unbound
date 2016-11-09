@@ -9,30 +9,26 @@ starting point for future development.
 
 ### Spiral Waveform Generation
  
-#### spiralgen_jgp_12oct
+#### Spiral Gen (spiralgen_jgp_12oct)
 A support routine that numerically generates a single (variable density) spiral
 waveform, which may be rotated by the user for multi-shot spiral methods.
 
-#### spiralgen_jgp_11apr (older version)
-A support routine that numerically generates a single (variable density) spiral
-waveform, which may be rotated by the user for multi-shot spiral methods.
- 
 ## RECONSTRUCTION
 
 ### Sampling Density Calculation
  
-#### sdc3_nrz_11aug.zip
+#### SDC 3D (sdc3_nrz_11aug.zip)
 Calculates the 3D sampling density weights for an arbitrary set of sampling
 points.
  
 ### Gridding
  
-#### grid3_dct_11aug.zip 
+#### Grid 3D (grid3_dct_11aug.zip) 
 Performs 3D gridding with an arbitrary coordinate set, data, and sampling
 density weights.  The code is threaded, but can be altered slightly to run
 non-threaded if desired.
 
 ### Parallel Imaging
 
-#### throughtimeRadialGrappa_nes_13oct.zip
+#### Through Time Radial Grappa (throughtimeRadialGrappa_nes_13oct.zip)
 Reconstructs undersampled radial data using through-time radial GRAPPA.
