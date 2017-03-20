@@ -30,7 +30,7 @@ Performs 3D gridding with an arbitrary coordinate set, data, and sampling
 density weights.  The code is threaded, but can be altered slightly to run
 non-threaded if desired.
 
-#### Through Time Radial Grappa (Parallel Imaging)
+### Through Time Radial Grappa (Parallel Imaging)
 * Author: Nicole E. Seiberlich
 * License: Creative Commons
 * Archive: throughtimeRadialGrappa_nes_13oct.zip
