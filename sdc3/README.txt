@@ -27,7 +27,7 @@ MATLAB:
     This is compiled by navigating to the directory 
     containing this package, and typing:
 
-        mex -v sdc3_MAT.c
+        mex -v -compatibleArrayDims sdc3_MAT.c
 
     on the MATLAB command-line (make sure to setup the mex
     configuration first).  Alternatively this may be 
@@ -43,6 +43,10 @@ MATLAB:
             Ubuntu 10.10 x86_64
             gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5)
             MATLAB 7.9.0.529 (R2009b) 64bit
+
+            MATLAB 2021a
+            Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-70-generic x86_64)
+            gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 
         OSX:
             Apple OSX 10.6.7

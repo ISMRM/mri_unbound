@@ -6,7 +6,7 @@
 # Rev: 2011 aug 21
 #
 # The mex file can also be compiled from the MATLAB commandline using:
-# 	> mex grid3_MAT.c
+# 	> mex -compatibleArrayDims grid3_MAT.c
 #
 
 
@@ -23,14 +23,20 @@ OUTPUT_DIR=./
 # 		MATLAB 2009b 64bit
 # 		ubuntu 10.10 x86_64
 # 		gcc (Ubuntu/Linaro 4.4.4-14ubuntu5) 4.4.5
+#	
+#		MATLAB 2021a
+#		Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-70-generic x86_64)
+#		gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 #
+
 CFLAGS="-std=c99 -D_GNU_SOURCE  -fexceptions -fPIC -fno-omit-frame-pointer "
+MFLAGS=-v -compatibleArrayDims
 
 .SUFFIXES: .c
 .PHONY: all
 
 % :: %.c
-	$(MEX) -v CFLAGS=$(CFLAGS) -outdir $(OUTPUT_DIR) $< 
+	$(MEX) $(MFLAGS) CFLAGS=$(CFLAGS) -outdir $(OUTPUT_DIR) $< 
 	#$(MEX) -v -outdir $(OUTPUT_DIR) $< 
 
 

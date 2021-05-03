@@ -11,3 +11,5 @@ build/
 /local/
 /doc/
 /__MACOSX/
+*.raw
+*.mexa64
