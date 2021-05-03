@@ -1,2 +1,15 @@
+*.pyc
+*.pyd
+*.pyo
+*.swp
+*.so
+*.o
+*.DS_Store
+VERSION
+build/
+/node/
+/local/
+/doc/
+/__MACOSX/
 *.raw
 *.mexa64
